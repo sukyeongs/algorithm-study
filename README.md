@@ -2,13 +2,16 @@
 
 
 ## 방식
+- 돌아가면서 총무
+- gimkuku ->
+
 
 1. 시작
     - code 폴더에 각자 깃아이디 명으로 폴더 만들기
 2. 월 ~ 목요일 자정
-    - 커리큘럼에 있는 문제 일주일에 3개 풀기 )
+    - 커리큘럼에 있는 문제 일주일에 3개 풀기 
 3. 목 ~ 금요일 자정
-    - 사이클에 맞추어 해당 사람 코드 PR + Week I Learn md 파일 작성 (~ 토요일 자정)
+    - 사이클에 맞추어 해당 사람 코드 PR + Week I Learn md 파일 작성
 4. 금 ~ 일요일 자정 
     - 총무가 Week I Learn 의 내용을 요약하여 WeekWeLearn.md 파일에 정리
     - 총무가 돈계산
@@ -23,12 +26,12 @@
 ```
 README.md
 code
-	ㄴ gimkuku
-		ㄴ week1
-			ㄴ 1_findthelength.py
-			ㄴ 2_dd.py
-			ㄴ 3_cc.py
-			ㄴ WIL.md
+   ㄴ gimkuku
+     ㄴ week1
+       ㄴ 1_findthelength.py
+       ㄴ 2_dd.py
+       ㄴ 3_cc.py
+       ㄴ WIL.md
 WeekWeLearn.md
 ```
 
