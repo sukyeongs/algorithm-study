@@ -4,16 +4,18 @@
 ## 방식
 - https://programmers.co.kr/learn/challenges
 - 돌아가면서 총무
-- gimkuku ->
+- gimkuku(1) ->
 
 
 1. 시작
     - repository fork하여 자신의 깃에서 clone
     - code 폴더에 각자 깃아이디 명으로 폴더 만들기
 2. 월 ~ 목요일 자정
-    - 커리큘럼에 있는 문제 일주일에 3개 풀기 
+    - 커리큘럼에 있는 문제 일주일에 3개 이상 풀기 
 3. 목 ~ 금요일 자정
     - 사이클에 맞추어 해당 사람 코드 PR + Week I Learn md 파일 작성
+    - 주차별 해당 사람 = 자신의 번호 + 해당 주차 % 인원수 
+    - 예) 1주차-gimkuku : gimkuku(1) + 1 % n = 2  : 2번 사람 코드 PR 
 4. 금 ~ 일요일 자정 
     - 총무가 Week I Learn 의 내용을 요약하여 WeekWeLearn.md 파일에 정리
     - 총무가 돈계산
