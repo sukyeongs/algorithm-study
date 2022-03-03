@@ -17,15 +17,12 @@
     - 주차별 해당 사람 = 자신의 번호 + 해당 주차 % 인원수 
     - 예) 1주차-gimkuku : gimkuku(1) + 1 % n = 2  : 2번 사람 코드 PR 
 4. 금 ~ 일요일 자정 
-    - 총무가 Week I Learn 의 내용을 요약하여 WeekWeLearn.md 파일에 정리
     - 총무가 돈 계산
     - 총무가 다음주 필수 문제 README.md 커리큘럼에 정리 
     - 정산 및 Week We Learn 확인
 
 
 *Week I Learn : 그 주 자신이 배운 내용을 정리하는 것
-
-*Week We Learn : 그 주 스터디 원이 배운 내용을 전부 요약하여 정리하는 것
 
 
 ### 폴더 구조
