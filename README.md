@@ -19,7 +19,6 @@
 4. 금 ~ 일요일 자정 
     - 총무가 돈 계산
     - 총무가 다음주 필수 문제 README.md 커리큘럼에 정리 
-    - 정산 및 Week We Learn 확인
 
 
 *Week I Learn : 그 주 자신이 배운 내용을 정리하는 것
@@ -36,7 +35,6 @@ code
        ㄴ 2_dd.py
        ㄴ 3_cc.py
        ㄴ WIL.md
-WeekWeLearn.md
 ```
 
 
