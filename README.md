@@ -42,9 +42,7 @@ WeekWeLearn.md
 
 ## 커리큘럼
 
-출처  : DSC Sookmyung
-
-[[Algorithm Study] 알고리즘 스터디 커리큘럼](https://dsc-sookmyung.tistory.com/126)
+출처  : [[Algorithm Study] 알고리즘 스터디 커리큘럼](https://dsc-sookmyung.tistory.com/126)
 
 
 
