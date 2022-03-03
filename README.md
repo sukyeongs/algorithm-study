@@ -1,11 +1,7 @@
 # algorithm-study
 
 
-# Algorithm - Study
-
 ## 방식
-
----
 
 1. 시작
     - code 폴더에 각자 깃아이디 명으로 폴더 만들기
@@ -36,15 +32,14 @@ code
 WeekWeLearn.md
 ```
 
-## 커리큘럼
-
 ---
+
+
+## 커리큘럼
 
 출처  : DSC Sookmyung
 
 [[Algorithm Study] 알고리즘 스터디 커리큘럼](https://dsc-sookmyung.tistory.com/126)
-
----
 
 ### **1주차 브루트 포스와 백트래킹**
 
@@ -67,7 +62,6 @@ WeekWeLearn.md
 - 큰 수 구성하기 [www.acmicpc.net/problem/18511](https://www.acmicpc.net/problem/18511)
 - 맞춰봐 [www.acmicpc.net/problem/1248](https://www.acmicpc.net/problem/1248)
 
----
 
 ### **2주차 정렬**
 
@@ -87,7 +81,6 @@ WeekWeLearn.md
 - 버블 소트 [www.acmicpc.net/problem/1517](https://www.acmicpc.net/problem/1517)
 - 큰 수 만들기 [www.acmicpc.net/problem/16496](https://www.acmicpc.net/problem/16496)
 
----
 
 ### **3주차 스택**
 
@@ -110,7 +103,6 @@ WeekWeLearn.md
 - 쇠막대기: [https://www.acmicpc.net/problem/10799](https://www.acmicpc.net/problem/10799)
 - 이상한 하노이 탑: [https://www.acmicpc.net/problem/15500](https://www.acmicpc.net/problem/15500)원판을 옮긴 횟수가 12345보다 작기만 하면 모두 정답입니다. 풀이는 여러 가지가 있을 텐데, 그 중에는 스택으로 푸는 방법도 있습니다.
 
----
 
 ### **4주차 큐와 덱**
 
@@ -140,7 +132,6 @@ WeekWeLearn.md
 
 - 부분합: [https://www.acmicpc.net/problem/1806](https://www.acmicpc.net/problem/1806)
 
----
 
 ### **5주차 다이나믹 프로그래밍(DP, 동적 계획법)**
 
@@ -167,7 +158,6 @@ WeekWeLearn.md
 - RGB거리: [https://www.acmicpc.net/problem/1149](https://www.acmicpc.net/problem/1149)
 - 크리스마스 트리: [https://www.acmicpc.net/problem/1234](https://www.acmicpc.net/problem/1234)
 
----
 
 ### **6주차 이분탐색과 파라메트릭 탐색**
 
@@ -196,7 +186,6 @@ WeekWeLearn.md
 - [1790] 수 이어 쓰기 2: [https://www.acmicpc.net/problem/1790](https://www.acmicpc.net/problem/1790)
 - [1561] 놀이 공원: [https://www.acmicpc.net/problem/1561](https://www.acmicpc.net/problem/1561)
 
----
 
 ### **7주차 DFS 와 BFS**
 
@@ -224,7 +213,6 @@ WeekWeLearn.md
 - [19641] 중첩 집합 모델: [https://www.acmicpc.net/problem/19641](https://www.acmicpc.net/problem/19641)
 - [14267] 내리 칭찬: [https://www.acmicpc.net/problem/14267](https://www.acmicpc.net/problem/14267)
 
----
 
 ### **8주차 Set, Map과 Dictionary**
 
@@ -253,8 +241,10 @@ C++에서는 map을 사용하고, Python에서는 Dictionary합니다. Set은 �
 - [14425] 문자열 집합: [https://www.acmicpc.net/problem/14425](https://www.acmicpc.net/problem/14425)
 - [16165] 걸그룹 마스터 준석이: [https://www.acmicpc.net/problem/16165](https://www.acmicpc.net/problem/16165)
 
+---
+
+
 ## Participants
 
----
 
 - [gimkuku0708](https://github.com/gimkuku)
