@@ -18,7 +18,7 @@
     - 예) 1주차-gimkuku : gimkuku(1) + 1 % n = 2  : 2번 사람 코드 PR 
 4. 금 ~ 일요일 자정 
     - 총무가 Week I Learn 의 내용을 요약하여 WeekWeLearn.md 파일에 정리
-    - 총무가 돈계산
+    - 총무가 돈 계산
     - 총무가 다음주 필수 문제 README.md 커리큘럼에 정리 
     - 정산 및 Week We Learn 확인
 
@@ -50,9 +50,12 @@ WeekWeLearn.md
 
 ### **Week 1**
 
-카카오
-2022 KAKAO BLIND RECRUITMENT
-- 필수 : Lv 2
+
+**2022 KAKAO BLIND RECRUITMENT**
+필수 문제
+- https://programmers.co.kr/learn/courses/30/lessons/92335
+- https://programmers.co.kr/learn/courses/30/lessons/92342
+- https://programmers.co.kr/learn/courses/30/lessons/92341
 
 
 ### **Week 2**
