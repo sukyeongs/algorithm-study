@@ -16,7 +16,7 @@
 3. 목 ~ 금요일 자정
    - 사이클에 맞추어 해당 사람 코드 PR + Week I Learn md 파일 작성
    - 주차별 해당 사람 = 자신의 번호 + 해당 주차 % 인원수
-   - 예) 1주차-gimkuku : gimkuku(1) + 1 % n = 2 : 2번 사람 코드 PR
+   - 예) 1주차-gimkuku : gimkuku(0) + 1 % n = 1 : 1번 사람 코드 PR
 4. 금 ~ 일요일 자정
    - 총무가 돈 계산
    - 총무가 다음주 필수 문제 README.md 커리큘럼에 정리
@@ -51,6 +51,7 @@ code
 
 총무 : gimkuku(0)
 **2022 KAKAO BLIND RECRUITMENT**
+
 
 필수 문제
 
