@@ -41,3 +41,25 @@ def dec_to_n(k,n):
         rev_base += str(mod)
     return rev_base[::-1]
 ```
+
+
+## 양궁대회
+
+
+### 합이 N이 되는 길이 k의 배열
+
+
+- 처음에 컴비네이션과 같은 편한 함수를 쓰려다가 실패함ㅎㅎ.. 
+- 결국 재귀 + DP로 풀었음
+- 합이 N이 되는 길이 k의 배열 = i + 합이 (N-i)가 되는 길이 (k-1)의 배열
+```
+def make_lion_list(n,k)
+    # k가 1일때 =>  n번째 숫자가 정해졌을때 => 즉 모든 배열이 완성되었을 때 계산
+    if (k == 1):
+        calc (어쩌구)
+
+    # 재귀 구문
+    for i in range(n+1):
+        calc_result, list_result = make_lion_list(n-i,k-1)
+```
+
