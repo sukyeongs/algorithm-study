@@ -80,7 +80,7 @@ def solution(n, k):
 
 위의 방법이 유효한 이유를 16을 예시로 설명하겠다. 16은 1, 2, 4, 8, 16 이 약수다. 이 때 16 = 1 * 16 = 2 * 8 = 4 * 4 라는 대칭 구조를 띈다. 따라서 1 ~ 16까지 나눠보며 소수인지 아닌지 판별 할 필요 없이 16의 제곱근인 4 까지만 나눠봐도 이를 판별할 수 있다 :)
 
-## 1번 문제 회고
+## 92335번 문제 회고
 학교에서 c언어만 하다가 다시 파이썬 코테로 넘어오니 엄청 버벅거렸다,,,ㅠㅠ. 문제를 처음 봤을 때 몇가지 스텝으로 문제를 쪼갤 수 있었다. 하지만 거기까지고 구현하려고 하니 막혔다. 진법 변환부터 막혀서 다시 구글링 해보고 유튜브로 파이썬 문법 강의도 다시 듣고 문제로 돌아왔다. 
 
 그렇게 첫 번째 코드를 완성했지만 시간초과가 떴다. 조건에 1 ≤ n ≤ 1,000,000에 정확성 테스트 10초(?)라 나와있어서 시간초과가 안 뜰줄 알았는데 실행시간 계산을 어떻게 하는거지..? 어쨋든 나동빈좌의 소수 판별 알고리즘 기법을 통해 O(n) -> O(루트n) 으로 개선하여 문제를 풀 수 있었다.
@@ -166,5 +166,76 @@ def solution(fees, records):
 성공
 ### 접근
 
-## 2번 문제 회고
+## 92341번 문제 회고
 쉬울 줄 알았는데 낑낑대며 더럽게 풀었다...ㅠㅠ 빠르고 효율적이게 구현하는 능력을 길러야겠다...
+
+# kakao_92342
+문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/92342
+## Unsolved Code
+```python
+from itertools import product, combinations
+
+def get_all_combinations(n):
+    comb = []
+    # n을 1~n개로 쪼개는 모든 경우를 순회
+    for k in range(1,n+1):
+        # n을 k개로 쪼개는 모든 중복순열 중 합이 n인 것
+        products = [x for x in product(range(1,n+1), repeat = k) if sum(x) == n]
+        # 0~10 중 k개의 인덱스를 고른 튜플 리스트
+        indices_list = [x for x in combinations(range(11), k)]
+        for prod in products:
+            for indices in indices_list:
+                tmp = [0]*11
+                # 인덱스 튜플을 순회하며 tmp 인덱스 값 을 대응하는 중복순열 값으로 대치
+                for i, index in enumerate(indices):
+                    tmp[index] = prod[i]
+                comb.append(tmp)
+    return comb
+
+def calc_score_difference(apeach, lion):
+    apeach_score, lion_score = 0, 0
+    for i in range(11):
+        if apeach[i] < lion[i]:
+            lion_score += 10-i
+        elif apeach[i] == 0 and lion[i] == 0:
+            continue
+        else:
+            apeach_score += 10-i
+    return lion_score - apeach_score
+
+def compare_and_get_answer(a,b):
+    # 어피치와 같은 점수차를 낼 수 있는 두 list a, b 중
+    # 낮은 점수를 더 많이 맞힌 경우를 찾아서 return
+    for i in reversed(range(11)):
+        if a[i] == b[i]:
+            continue
+        elif a[i] > b[i]:
+            return a
+        else:
+            return b
+
+def solution(n, info):
+    answer = []
+    max_d_score = -99999 # 점수차 초기화
+    for lion_info in get_all_combinations(n):
+        d_score = calc_score_difference(info, lion_info) # 점수차 계산
+        if d_score == max_d_score: # 지금까지의 최대점수차와 같은 경우
+            answer = compare_and_get_answer(answer, lion_info) # 조건에 맞는 값 구하기
+        elif d_score > max_d_score: # 최대점수차 갱신
+            max_d_score = d_score
+            answer = lion_info
+        else:
+            continue
+
+    if max_d_score <= 0: # 최대점수차가 0 이하라면 비기거나 지는 경우
+        answer = [-1]
+    return answer
+```
+### 결과
+테스트 케이스 4개 중 2개 시간초과로 실패
+### 접근
+
+### 회고
+라이언이 만들어낼 수 있는 모든 점수의 조합을 찾는 코드를 구현하는데 너무너무 어려웠다. 라이언이 승리할 수 있는 조건이 까다롭게 느껴져 모든 경우의 수를 구한 뒤 하나씩 검사하는 과정을 따라가보려 했다. 결국 라이언의 점수 조합을 모두 찾는 `get_all_combinations` 메소드를 만들며 엄청 오랜 시간을 썼고 또 더럽게 코딩했다(4중 포문;;).
+
+테스트 케이스 2개는 통과했으나 2개는 시간초과가 떴다. 시간초과가 뜰 각오는 하고 있었지만 이렇게라도 구현해보고싶었다. 이제 다른 방법을 찾아봐야겠다
