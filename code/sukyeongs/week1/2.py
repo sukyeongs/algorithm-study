@@ -14,10 +14,10 @@ def solution(n, info):
                 a_score += i
             else:
                 l_score += i
-        if max_score < (l_score - a_score) : # 스코어가 더 크다면
+        if max_score < (l_score - a_score) : 
             max_score = (l_score - a_score)
             answer = cnt
-        elif max_score == (l_score - a_score) and max_score !=0: # 스코어가 같다면
+        elif max_score == (l_score - a_score) and max_score !=0:
             if answer == [] :
                 answer = cnt
             else:
