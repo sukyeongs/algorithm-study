@@ -63,3 +63,35 @@ def make_lion_list(n,k)
         calc_result, list_result = make_lion_list(n-i,k-1)
 ```
 
+
+## 주차 요금 계산
+
+
+### Dictionary 정리 
+- 키 : 요소 로 이루어짐
+- 쌍 추가하기 : dict[key] = value
+```
+a = {}
+a[2] = 'b'
+```
+- 쌍 삭제하기 : del dict[key]
+```
+del dict[key]
+```
+- 키 값이 비어있는지 확인하기 
+```
+if time_dict.get(j[0]) == None:
+    return empty
+```
+
+
+### float 올림 / 버림 / 반올림
+- import math를 하여 함수 사용
+```
+# 올림
+math.ceil(12.2) => 13
+# 버림
+math.floor(12.2) => 12
+# 반올림 : round(실수, 반올림 자리수)
+round(12.223,2) => 12.22
+```
