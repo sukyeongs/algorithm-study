@@ -21,8 +21,8 @@
    - 총무가 돈 계산
    - 총무가 다음주 필수 문제 README.md 커리큘럼에 정리
 
-
 \*Week I Learn : 그 주 자신이 배운 내용을 정리하는 것
+
 
 ### 벌금 규칙
 ```
@@ -34,7 +34,6 @@
 3. 시험기간 : 합의하에 스터디 2주 휴식 
 4. 탈퇴 시 : 취직했을 경우, 그 외에는 대타 구하고 나가기
 ```
-
 
 ### 코드 리뷰 예시
 ```
@@ -81,6 +80,19 @@ code
 
 ### **Week 2**
 
+
+총무  : ujunhwan(1)
+
+
+**2022 KAKAO BLIND RECRUITMENT**
+
+
+필수 문제
+- https://programmers.co.kr/learn/courses/30/lessons/92343
+- https://programmers.co.kr/learn/courses/30/lessons/92344
+- https://programmers.co.kr/learn/courses/30/lessons/92334
+
+
 ### **Week 3**
 
 ### **Week 4**
@@ -89,12 +101,10 @@ code
 
 ### **Week 6**
 
-
 ---
 
 
 ## Participants
-
 - [gimkuku](https://github.com/gimkuku)
 - [ujunhwan](https://github.com/ujunhwan)
 - [sukyeongs](https://github.com/sukyeongs)
