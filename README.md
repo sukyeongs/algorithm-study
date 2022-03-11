@@ -79,7 +79,15 @@ code
 - https://programmers.co.kr/learn/courses/30/lessons/92342
 - https://programmers.co.kr/learn/courses/30/lessons/92341
 
+
 ### **Week 2**
+
+
+필수 문제
+- https://programmers.co.kr/learn/courses/30/lessons/92343
+- https://programmers.co.kr/learn/courses/30/lessons/92344
+- https://programmers.co.kr/learn/courses/30/lessons/92334
+
 
 ### **Week 3**
 
