@@ -83,6 +83,12 @@ code
 ### **Week 2**
 
 
+총무  : ujunhwan(1)
+
+
+**2022 KAKAO BLIND RECRUITMENT**
+
+
 필수 문제
 - https://programmers.co.kr/learn/courses/30/lessons/92343
 - https://programmers.co.kr/learn/courses/30/lessons/92344
