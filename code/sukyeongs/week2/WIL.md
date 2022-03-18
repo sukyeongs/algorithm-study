@@ -10,13 +10,13 @@ def dfs(sheep, wolf, current, path):
         else:
             sheep += 1 
         
-				# 늑대가 다 잡을 경우 0    
+	# 늑대가 다 잡을 경우 0    
         if sheep <= wolf:
             return 0 
         
         maxSheep = sheep 
         
-				# 백트래킹 적용
+	# 백트래킹 적용
         for p in path: 
             for n in nextNodes(p): 
                 if n not in path: 
